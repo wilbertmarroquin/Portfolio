@@ -1,0 +1,23 @@
+.card-title {
+  font-size: 28px;
+  font-weight: bold;
+
+  a {
+    color: inherit;
+  }
+}
+
+.card-search,
+.card-search:hover {
+  position: absolute;
+  bottom: 2rem;
+  color: inherit;
+}
+
+.card-link,
+.card-link:hover {
+  position: absolute;
+  bottom: 2rem;
+  right: 4.5rem;
+  color: inherit;
+}

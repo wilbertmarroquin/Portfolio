@@ -1,0 +1,19 @@
+.sider {
+  background-color: darkblue;
+  padding: 3rem 0;
+  text-align: center;
+  height: 100%;
+}
+
+.nav-item {
+  margin-bottom: 0.5rem;
+  
+  a {
+    color: aquamarine;
+    opacity: 0.8;
+  }
+
+  a:hover {
+    color: white;
+  }
+}

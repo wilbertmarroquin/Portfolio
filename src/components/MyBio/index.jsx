@@ -9,14 +9,14 @@ const MyBio = () => {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col xs={12} lg={4}>
           <h1>{myBioText}</h1>
         </Col>
-        <Col>
+        <Col xs={12} md={6} lg={4}>
           <h4>{subText}</h4>
           <h5 className="mt-2">{firstBioText}</h5>
         </Col>
-        <Col>
+        <Col xs={12} md={6} lg={4}>
           <h5>{firstBioText}</h5>
           <h5 className="mt-2">{firstBioText}</h5>
         </Col>

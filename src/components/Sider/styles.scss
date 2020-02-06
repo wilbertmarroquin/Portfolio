@@ -16,4 +16,72 @@
   a:hover {
     color: white;
   }
+
+  &.selected a {
+    color: white;
+  }
+}
+
+.sider-collapse,
+.sider-collapse.collapse {
+  display: none;
+}
+
+.sider-normal {
+  display: block;
+}
+
+.sider-icon {
+  padding-left: 0;
+}
+
+.sider-icon img {
+  margin-bottom: 3.5rem;
+  height: 100px;
+  width: 78px;
+}
+
+.sider-menu {
+  text-align: right;
+  padding-right: 4rem !important;
+
+  .btn svg {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  
+  .sider-collapse {
+    display: inline-block;
+  }
+
+  .sider-collapse.collapse {
+    display: block;
+  }
+
+  .sider-normal {
+    display: none;
+  }
+
+  .sider-icon {
+    text-align: left;
+    padding-left: 4rem !important;
+  }
+
+  .sider-icon img {
+    margin-bottom: 1rem;
+    height: 50px;
+    width: 39px;
+  }
+
+  .sider-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .sider {
+    padding: 1rem 0;
+  }
 }

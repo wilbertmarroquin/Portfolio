@@ -13,3 +13,10 @@
   border: 1px solid darkblue;
   color: darkblue;
 }
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+  background-color: darkblue;
+  border-color: darkblue;
+}

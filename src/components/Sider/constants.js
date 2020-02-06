@@ -4,7 +4,7 @@ const menuItems = [
   {
     title: 'Home',
     redirection: routesDictionary.home,
-    key: '/',
+    key: '',
   },
   {
     title: 'Work',

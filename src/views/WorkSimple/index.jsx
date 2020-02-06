@@ -22,7 +22,7 @@ const WorkSimple = () => {
   if (!data) return (<Redirect to={routesDictionary.notFound} />);
 
   return (
-    <Container className="work-simple">
+    <Container className="work-simple" fluid>
       <Row>
         <ParallaxImage src={data.image} className="work-principal-image" />
       </Row>
@@ -40,18 +40,30 @@ const WorkSimple = () => {
       </Row>
       <Row>
         <Col className="view site">
-          <h3>
-            <FontAwesomeIcon icon={faGlobe} size="lg" />
-            {' '}
-            {viewSiteText}
-          </h3>
+          <a
+            href={data.pageLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3>
+              <FontAwesomeIcon icon={faGlobe} size="lg" />
+              {' '}
+              {viewSiteText}
+            </h3>
+          </a>
         </Col>
         <Col className="view code">
-          <h3>
-            <FontAwesomeIcon icon={faCode} size="lg" />
-            {' '}
-            {viewCodeText}
-          </h3>
+          <a
+            href={data.codeLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3>
+              <FontAwesomeIcon icon={faCode} size="lg" />
+              {' '}
+              {viewCodeText}
+            </h3>
+          </a>
         </Col>
       </Row>
     </Container>

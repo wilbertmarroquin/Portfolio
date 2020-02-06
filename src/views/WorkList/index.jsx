@@ -21,7 +21,7 @@ const WorkList = (props) => {
       <Row>
         {
           renderList.map((workData, index) => (
-            <Col xs={6}>
+            <Col key={workData.title} className="mb-4" xs={12} lg={6}>
               <WorkCard id={index + 1} {...workData} />
             </Col>
           ))

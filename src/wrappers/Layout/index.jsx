@@ -7,10 +7,10 @@ import Footer from '../../components/Footer';
 const Layout = () => (
   <Container fluid className="base-container">
     <Row noGutters className="base-container">
-      <Col xs={2}>
+      <Col xs={0} xl={2}>
         <Sider />
       </Col>
-      <Col xs={10} className="pb-10">
+      <Col xs={12} xl={10} className="pb-10">
         <Routes />
         <div className="px-4">
           <Footer />

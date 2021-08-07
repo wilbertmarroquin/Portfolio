@@ -7,10 +7,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faCode } from '@fortawesome/free-solid-svg-icons';
 import workList from '../../data';
 import routesDictionary from '../../routes/routesDict';
-
+import ParallaxImage from '../../components/ParallaxImage';
 
 import './styles.scss';
-import ParallaxImage from '../../components/ParallaxImage';
 
 
 const WorkSimple = () => {
@@ -35,7 +34,7 @@ const WorkSimple = () => {
           <p>{data.explanationSecond}</p>
         </Col>
       </Row>
-      <Row>
+      <Row className="justify-content-center">
         <Image src={data.secondImage} className="second-work-image" />
       </Row>
       <Row>
@@ -52,6 +51,7 @@ const WorkSimple = () => {
             </h3>
           </a>
         </Col>
+        {data.codeLink && (
         <Col className="view code">
           <a
             href={data.codeLink}
@@ -65,6 +65,7 @@ const WorkSimple = () => {
             </h3>
           </a>
         </Col>
+        )}
       </Row>
     </Container>
   );

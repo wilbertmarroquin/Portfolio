@@ -22,6 +22,7 @@ const MakeRouteWithSubRoutes = (props) => {
     path, exact, title, padding,
     component: Component, type,
   } = props;
+  window.scrollTo(0, 0);
 
   return (
     <Route

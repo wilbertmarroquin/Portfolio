@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link, withRouter } from 'react-router-dom';
-import { Nav, Collapse, Button, Col, Row, Container } from 'react-bootstrap';
+import {
+  Nav, Collapse, Button, Col, Row, Container,
+} from 'react-bootstrap';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import menuItems from './constants';
+import avatar from '../../media/avatar.jpg';
 
 import './styles.scss';
 
@@ -28,8 +31,9 @@ const Sider = ({ history }) => {
         <Row>
           <Col xs={6} xl={12} className="sider-icon">
             <img
-              src="https://themes.muffingroup.com/be/freelancer/wp-content/uploads/2016/03/retina-freelancer.png"
-              alt="logo-test"
+              src={avatar}
+              alt="avatar"
+              className="avatar"
             />
           </Col>
           <Col xs={6} className="sider-collapse sider-menu">

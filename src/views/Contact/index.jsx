@@ -5,17 +5,16 @@ import ContactForm from './ContactForm';
 
 const Contact = () => {
   const contactMeText = 'Contact me';
-  const contactMeSubText = 'Pellentesque habitant morbi tristique senectus netus et malesuada';
   const sayHelloText = 'Say hello!';
 
   return (
     <Container>
-      <Title title={contactMeText} subtitle={contactMeSubText} />
+      <Title title={contactMeText} />
       <Row className="mt-10">
-        <Col xs={3}>
-          <h1>{sayHelloText}</h1>
+        <Col xs={24} md={3}>
+          <h2>{sayHelloText}</h2>
         </Col>
-        <Col xs={9}>
+        <Col xs={24} md={9}>
           <ContactForm />
         </Col>
       </Row>

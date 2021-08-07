@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom';
 import { Container, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faLink } from '@fortawesome/free-solid-svg-icons';
-
-import './styles.scss';
 import routesDictionary from '../../../routes/routesDict';
 
+import './styles.scss';
+
 const WorkContent = (props) => {
-  const { title, description, id } = props;
+  const {
+    title, description, id, pageLink,
+  } = props;
 
   return (
     <Container>
@@ -22,9 +24,9 @@ const WorkContent = (props) => {
       <Link className="card-search" to={`${routesDictionary.work}/${id}`}>
         <FontAwesomeIcon icon={faSearch} size="lg" />
       </Link>
-      <Link className="card-link" to={`${routesDictionary.work}/${id}`}>
+      <a className="card-link" href={pageLink} target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faLink} size="lg" />
-      </Link>
+      </a>
     </Container>
   );
 };

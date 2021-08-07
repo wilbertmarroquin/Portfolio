@@ -1,10 +1,9 @@
 const routesDictionary = {
-  contact: '/contact',
-  work: '/work',
-  workSimple: '/work/:id',
-  bio: '/bio',
-  home: '/',
-  notFound: '/404',
+  contact: '/Portfolio/contact',
+  work: '/Portfolio/work',
+  workSimple: '/Portfolio/work/:id',
+  home: '/Portfolio/',
+  notFound: '/Portfolio/404',
 };
 
 export default routesDictionary;

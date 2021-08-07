@@ -36,9 +36,10 @@
 }
 
 .sider-icon img {
+  vertical-align: middle;
+  border-radius: 50%;
   margin-bottom: 3.5rem;
   height: 100px;
-  width: 78px;
 }
 
 .sider-menu {
@@ -70,9 +71,8 @@
   }
 
   .sider-icon img {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     height: 50px;
-    width: 39px;
   }
 
   .sider-menu {

@@ -6,8 +6,8 @@ import WorkList from '../WorkList';
 import routesDictionary from '../../routes/routesDict';
 
 const Home = () => {
-  const helloText = 'Hello!';
-  const contentText = 'I am an experienced design lover based in Australia. I’m available for freelance work and projects. I specialise in graphic design & art direction as well as photo, video & audio.';
+  const helloText = 'Hello i am Wilbert!';
+  const contentText = 'Logical and results-driven Frontend Developer dedicated to building and optimizing user-focused websites for customers, familiar with wide range of programming utilities and languages.';
   const contactText = 'Contact me';
 
   return (

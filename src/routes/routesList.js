@@ -3,7 +3,6 @@ import asyncComponent from '../HOC/AsyncComponent';
 
 const AsyncHome = asyncComponent(() => import('../views/Home'));
 const AsyncWorkList = asyncComponent(() => import('../views/WorkList'));
-const AsyncBio = asyncComponent(() => import('../views/Bio'));
 const AsyncContact = asyncComponent(() => import('../views/Contact'));
 const AsyncWorkSimple = asyncComponent(() => import('../views/WorkSimple'));
 const AsyncNotFound = asyncComponent(() => import('../views/404'));
@@ -19,11 +18,6 @@ const routes = [
     path: routesDictionary.contact,
     component: AsyncContact,
     title: 'Contact',
-  },
-  {
-    path: routesDictionary.bio,
-    component: AsyncBio,
-    title: 'Bio',
   },
   {
     path: routesDictionary.workSimple,

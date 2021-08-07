@@ -12,11 +12,6 @@ const menuItems = [
     key: 'work',
   },
   {
-    title: 'Bio',
-    redirection: routesDictionary.bio,
-    key: 'bio',
-  },
-  {
     title: 'Contact me',
     redirection: routesDictionary.contact,
     key: 'contact',

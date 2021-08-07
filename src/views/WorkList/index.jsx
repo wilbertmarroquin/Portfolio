@@ -11,7 +11,7 @@ import workList from '../../data';
 
 const WorkList = (props) => {
   const { title, complete, className } = props;
-  const lastWorks = workList.slice(0, 4);
+  const lastWorks = workList.slice(0, 2);
   const renderList = complete ? workList : lastWorks;
   const seeWorkText = 'See all works';
 

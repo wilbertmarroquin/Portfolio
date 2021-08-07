@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,YACE,cAAe,CACf,oBAAsB,CACvB,qBAGC,eAAgB,CAChB,YAAa,CACb,sBAAuB,CACvB,kBAAmB","file":"6.b79cf229.chunk.css","sourcesContent":[".alert-icon {\n  font-size: 7rem;\n  width: 100% !important;\n}\n\n.not-found-container {\n  min-height: 44vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}"]}

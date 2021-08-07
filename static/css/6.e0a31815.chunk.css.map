@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,cACE,eAAgB,CAChB,cAAe,CAChB,iBAGC,WAAY,CACb,eAGC,SAAU","file":"6.e0a31815.chunk.css","sourcesContent":[".contact-form {\n  padding-right: 0;\n  padding-left: 0;\n}\n\n.success-message {\n  color: green;\n}\n\n.error-message {\n  color: red;\n}"]}
